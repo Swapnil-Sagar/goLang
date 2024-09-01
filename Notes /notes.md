@@ -54,3 +54,14 @@ Summary:
 
  -run code first from vendor and if dependency is not installed then from cache 
  go run -mod=vendor main.go  
+
+
+ ##Concurrency vs Parallelism
+
+-  Concurrency - process multiple tasks at same time but not necessarily same moment like async await
+-  Parallelism - process multiple tasks at same time and same moment like multiple threads
+
+
+###DO NOT COMMUNICATE BY SHARING MEMORY; INSTEAD, SHARE MEMORY BY COMMUNICATING.
+
+
