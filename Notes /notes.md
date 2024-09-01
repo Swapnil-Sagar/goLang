@@ -65,3 +65,12 @@ Summary:
 ###DO NOT COMMUNICATE BY SHARING MEMORY; INSTEAD, SHARE MEMORY BY COMMUNICATING.
 
 
+##Mutex in Go
+
+-  Mutex is short for Mutual Exclusion
+-  It helps in sharing memory by communication
+-  It is used to protect shared data from multiple goroutines
+-  When a goroutine is accessing shared data, mutex locks it and other goroutines have to wait until the lock is released
+-  Mutex is a way to synchronize access to shared data
+-  When a goroutine is done with shared data, it releases the lock and other goroutine can access the data
+
