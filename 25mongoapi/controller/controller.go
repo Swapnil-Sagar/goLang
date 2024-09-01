@@ -18,7 +18,7 @@ import (
 
 
 
-const connectionString = "mongodb+srv://swapnilsagar09:swapnilSagar123@cluster0.ycfvj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const connectionString = "mongodb+srv://swapnilsagar09:Swapnilsagar123@cluster0.ycfvj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 const dbName = "netflixdb"
 const colName = "watchlist"
 
